@@ -158,6 +158,8 @@ body,html{
 
 .display-image {
     border-radius: 50%;
+    padding:80px;
+    background-color: #fff;
 }
 
 .page-title {
@@ -176,7 +178,7 @@ body,html{
 }
 
 .page-item-each {
-    color: #a2d2ff;
+    color: #000;
     font-family: "DynaPuff", sans-serif;
     font-size: 16px;
     font-weight: 500;
