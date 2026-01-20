@@ -286,8 +286,8 @@ body,html{
 }
 
 .display-image{
-    width:96px;
-    height:96px;
+    width:196px;
+    height:196px;
     display:block;
     border-radius:50%;
     -o-object-fit:cover;
