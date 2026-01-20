@@ -7,7 +7,15 @@ body,html{
     overscroll-behavior:none;
     margin:0;
     padding:0;
-    background-color: #ffc8dd;
+    background-color: #ffc8dd;background: hsla(11, 94%, 55%, 1);
+
+background: radial-gradient(circle, hsla(11, 94%, 55%, 1) 22%, hsla(323, 80%, 63%, 1) 92%);
+
+background: -moz-radial-gradient(circle, hsla(11, 94%, 55%, 1) 22%, hsla(323, 80%, 63%, 1) 92%);
+
+background: -webkit-radial-gradient(circle, hsla(11, 94%, 55%, 1) 22%, hsla(323, 80%, 63%, 1) 92%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F84922", endColorstr="#EC55B3", GradientType=1 );
 }
 
 @-webkit-keyframes slidetounlock{
