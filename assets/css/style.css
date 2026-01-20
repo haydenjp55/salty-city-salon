@@ -167,7 +167,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F84922", en
 .display-image {
     border-radius: 50%;
     padding: 5px;
-    background-color: #fff;
+    background-color: #cdb4db75;
     border: 5px #cdb4db;
 }
 
