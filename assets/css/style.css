@@ -158,9 +158,9 @@ body,html{
 
 .display-image {
     border-radius: 50%;
-    padding: 15px;
+    padding: 5px;
     background-color: #fff;
-    border: #cdb4db 5px;
+    border: 5px #cdb4db;
 }
 
 .page-title {
@@ -191,8 +191,8 @@ body,html{
 
 .page-item-wrap {
     margin: 16px 0;
-    padding: 15px;
-    border: #cdb4db 5px;
+    padding: 2px;
+    border: 5px #cdb4db;
 }
 
 .page-item-wrap:last-child {
