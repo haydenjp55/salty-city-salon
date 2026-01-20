@@ -7,7 +7,7 @@ body,html{
     overscroll-behavior:none;
     margin:0;
     padding:0;
-    background-color: #a2d2ff;
+    background-color: #ffc8dd;
 }
 
 @-webkit-keyframes slidetounlock{
@@ -176,7 +176,7 @@ body,html{
 }
 
 .page-item-each {
-    color: #1F365C;
+    color: #a2d2ff;
     font-family: "DynaPuff", sans-serif;
     font-size: 16px;
     font-weight: 500;
