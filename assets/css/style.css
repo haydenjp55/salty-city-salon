@@ -3,14 +3,21 @@
 /* ============================= */
 
 html, body {
+    animation: fadeIn .6s ease-out;
     -ms-scroll-chaining: none;
     overscroll-behavior: none;
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 
     background: radial-gradient(circle, 
         hsla(11, 94%, 55%, 1) 22%, 
         hsla(323, 80%, 63%, 1) 92%);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* ============================= */
@@ -110,6 +117,10 @@ html, body {
     overflow: hidden;
 }
 
+.page-item-each:active {
+    transform: scale(0.98);
+}
+
 .link-each-image {
     width: 43px;
     height: 43px;
@@ -168,11 +179,29 @@ html, body {
 
 .affiliate-disclaimer {
     margin-top: 48px;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.4;
-    opacity: 0.75;
+    opacity: 0.85;
+    font-weight: 600;
     text-align: center;
     max-width: 420px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* ============================= */
+/* Accesibility */
+/* ============================= */
+
+@media (prefers-reduced-motion: reduce) {
+    #stars1,
+    #stars2,
+    #stars3 {
+        animation: none;
+    }
+
+    .page-item-wrap {
+        transition: none;
+    }
 }
